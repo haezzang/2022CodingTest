@@ -1,0 +1,28 @@
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan=new Scanner(System.in);
+			String s="";
+			int count=0;
+			int i=0;
+				while(s!="#") {
+					 s=scan.next();
+					 String res=s.substring(i,i+1);
+					 if(res=="a" || res=="e" ||  res=="i" ||  res=="o" ||  res=="u")
+						 	count++;
+					System.out.println(count);
+					i++;
+				}
+		
+	
+
+		
+		
+		
+	}
+
+}
