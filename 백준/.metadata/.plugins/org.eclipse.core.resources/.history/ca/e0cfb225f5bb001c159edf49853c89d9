@@ -1,0 +1,38 @@
+package 더하기사이클;
+
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner scan=new Scanner(System.in);
+		
+			int num=scan.nextInt();
+			int newNum=num;
+			int cnt=0;
+	
+				int left=num/10;
+				int right=num%10;
+				int sum=left+right;
+				newNum=right+sum;
+
+				cnt++;
+				System.out.println(newNum);
+
+		
+			
+				newNum%=10;
+				left=newNum/10;
+				right=newNum%10;
+				sum=left+right;
+				newNum=right+sum;
+				System.out.println(newNum);
+			
+
+			
+		
+	}
+
+}
