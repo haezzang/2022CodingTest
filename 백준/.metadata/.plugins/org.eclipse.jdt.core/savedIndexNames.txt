@@ -14,6 +14,7 @@ INDEX VERSION 1.131+C:\Users\82108\Desktop\코딩테스트\2022CodingTest\백준\.metad
 1322563307.index
 1580130071.index
 984987800.index
+3843973367.index
 135024535.index
 3126084241.index
 3473482017.index
