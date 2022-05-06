@@ -1,0 +1,32 @@
+package 쉽게푸는문제;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+
+		int i = scan.nextInt();
+		int sum=0;
+		int Y=0;
+		int M=0;
+		while(i!=0) {
+			int ms=scan.nextInt();
+			if(ms<30) Y+=10;
+			else if(ms<60) Y+=20;
+			else Y+=30;
+				
+			if(ms<60) M+=15;
+			else M+=30;
+			
+			i--;
+		}
+	
+		if(Y>M) System.out.println("M "+ M);
+		else if(Y<M) System.out.println("Y "+ Y);
+		else System.out.println("Y M "+ M);
+
+	}
+
+}
